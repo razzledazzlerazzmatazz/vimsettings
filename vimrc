@@ -86,5 +86,5 @@ map <C-n> :NERDTreeToggle<CR>
 map <C-F> :NERDTreeFind<CR>
 " END NerdTree
 
-# CtrlP
+" CtrlP
 set runtimepath^=~/.vim/bundle/ctrlp.vim
