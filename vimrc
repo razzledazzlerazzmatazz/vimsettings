@@ -34,6 +34,7 @@ Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Avoid a name conflict with L9
 " Plugin 'user/L9', {'name': 'newL9'}
+Plugin "git://github.com/kien/ctrlp.vim.git"
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -82,3 +83,6 @@ nmap <F8> :TagbarToggle<CR>
 autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
 " END NerdTree
+
+# CtrlP
+set runtimepath^=~/.vim/bundle/ctrlp.vim
