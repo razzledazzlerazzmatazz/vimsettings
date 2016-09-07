@@ -81,6 +81,7 @@ nmap <F8> :TagbarToggle<CR>
 " BEGIN NerdTree
 autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
+map <C-F> :NERDTreeFind<CR>
 " END NerdTree
 
 # CtrlP
