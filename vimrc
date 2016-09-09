@@ -73,6 +73,7 @@ let g:airline_powerline_fonts = 1
 syntax enable
 set background=dark
 colorscheme gruvbox
+color desert
 " colorscheme solarized
 " END vim-colors-solarized
 
@@ -81,9 +82,9 @@ nmap <F8> :TagbarToggle<CR>
 " END tagbar
 
 " BEGIN NerdTree
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
-map <C-F> :NERDTreeFind<CR>
+map <S-C-F> :NERDTreeFind<CR>
 " END NerdTree
 
 " CtrlP
